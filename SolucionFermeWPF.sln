@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1082
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FermeWPF", "FermeWPF\FermeWPF.csproj", "{E438825A-BDD8-43F9-86D8-9B707A4B84ED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FermeNegocio", "FermeNegocio\FermeNegocio.csproj", "{201C790F-B964-4AFC-9E40-908F49E6439A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FermeDatos", "FermeDatos\FermeDatos.csproj", "{C2C5FDC1-DA21-4066-9970-F63EA1A5CF00}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E438825A-BDD8-43F9-86D8-9B707A4B84ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E438825A-BDD8-43F9-86D8-9B707A4B84ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E438825A-BDD8-43F9-86D8-9B707A4B84ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E438825A-BDD8-43F9-86D8-9B707A4B84ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{201C790F-B964-4AFC-9E40-908F49E6439A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{201C790F-B964-4AFC-9E40-908F49E6439A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{201C790F-B964-4AFC-9E40-908F49E6439A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{201C790F-B964-4AFC-9E40-908F49E6439A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C2C5FDC1-DA21-4066-9970-F63EA1A5CF00}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2C5FDC1-DA21-4066-9970-F63EA1A5CF00}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2C5FDC1-DA21-4066-9970-F63EA1A5CF00}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2C5FDC1-DA21-4066-9970-F63EA1A5CF00}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C14E12CE-324C-420F-A07F-D2C60D43EECE}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,188 @@
+C:\Users\javie\source\repos\SolucionFermeWPF\FermeWPF\bin\Debug\FermeWPF.exe.config
+C:\Users\javie\source\repos\SolucionFermeWPF\FermeWPF\bin\Debug\FermeWPF.exe
+C:\Users\javie\source\repos\SolucionFermeWPF\FermeWPF\bin\Debug\FermeWPF.pdb
+C:\Users\javie\source\repos\SolucionFermeWPF\FermeWPF\bin\Debug\FermeNegocio.dll
+C:\Users\javie\source\repos\SolucionFermeWPF\FermeWPF\bin\Debug\FermeNegocio.pdb
+C:\Users\javie\source\repos\SolucionFermeWPF\FermeWPF\bin\Debug\FermeNegocio.dll.config
+C:\Users\javie\source\repos\SolucionFermeWPF\FermeWPF\obj\Debug\FermeWPF.csprojAssemblyReference.cache
+C:\Users\javie\source\repos\SolucionFermeWPF\FermeWPF\obj\Debug\MainWindow.g.cs
+C:\Users\javie\source\repos\SolucionFermeWPF\FermeWPF\obj\Debug\App.g.cs
+C:\Users\javie\source\repos\SolucionFermeWPF\FermeWPF\obj\Debug\FermeWPF_MarkupCompile.cache
+C:\Users\javie\source\repos\SolucionFermeWPF\FermeWPF\obj\Debug\FermeWPF_MarkupCompile.lref
+C:\Users\javie\source\repos\SolucionFermeWPF\FermeWPF\obj\Debug\MainWindow.baml
+C:\Users\javie\source\repos\SolucionFermeWPF\FermeWPF\obj\Debug\FermeWPF.g.resources
+C:\Users\javie\source\repos\SolucionFermeWPF\FermeWPF\obj\Debug\FermeWPF.Properties.Resources.resources
+C:\Users\javie\source\repos\SolucionFermeWPF\FermeWPF\obj\Debug\FermeWPF.csproj.GenerateResource.cache
+C:\Users\javie\source\repos\SolucionFermeWPF\FermeWPF\obj\Debug\FermeWPF.csproj.CoreCompileInputs.cache
+C:\Users\javie\source\repos\SolucionFermeWPF\FermeWPF\obj\Debug\FermeWPF.csproj.CopyComplete
+C:\Users\javie\source\repos\SolucionFermeWPF\FermeWPF\obj\Debug\FermeWPF.exe
+C:\Users\javie\source\repos\SolucionFermeWPF\FermeWPF\obj\Debug\FermeWPF.pdb
+C:\Users\javie\source\repos\SolucionFermeWPF\FermeWPF\bin\Debug\FermeDatos.dll
+C:\Users\javie\source\repos\SolucionFermeWPF\FermeWPF\bin\Debug\EntityFramework.dll
+C:\Users\javie\source\repos\SolucionFermeWPF\FermeWPF\bin\Debug\FermeDatos.pdb
+C:\Users\javie\source\repos\SolucionFermeWPF\FermeWPF\bin\Debug\FermeDatos.dll.config
+C:\Users\javie\source\repos\SolucionFermeWPF\FermeWPF\bin\Debug\EntityFramework.xml
+C:\Users\javie\source\repos\SolucionFermeWPF\FermeWPF\bin\Debug\Oracle.ManagedDataAccess.dll
+C:\Users\javie\OneDrive\Escritorio\app Escritorio\SolucionFermeWPF\FermeWPF\bin\Debug\FermeWPF.exe.config
+C:\Users\javie\OneDrive\Escritorio\app Escritorio\SolucionFermeWPF\FermeWPF\bin\Debug\FermeWPF.exe
+C:\Users\javie\OneDrive\Escritorio\app Escritorio\SolucionFermeWPF\FermeWPF\bin\Debug\FermeWPF.pdb
+C:\Users\javie\OneDrive\Escritorio\app Escritorio\SolucionFermeWPF\FermeWPF\bin\Debug\FermeDatos.dll
+C:\Users\javie\OneDrive\Escritorio\app Escritorio\SolucionFermeWPF\FermeWPF\bin\Debug\FermeNegocio.dll
+C:\Users\javie\OneDrive\Escritorio\app Escritorio\SolucionFermeWPF\FermeWPF\bin\Debug\Oracle.ManagedDataAccess.dll
+C:\Users\javie\OneDrive\Escritorio\app Escritorio\SolucionFermeWPF\FermeWPF\bin\Debug\EntityFramework.dll
+C:\Users\javie\OneDrive\Escritorio\app Escritorio\SolucionFermeWPF\FermeWPF\bin\Debug\FermeDatos.pdb
+C:\Users\javie\OneDrive\Escritorio\app Escritorio\SolucionFermeWPF\FermeWPF\bin\Debug\FermeDatos.dll.config
+C:\Users\javie\OneDrive\Escritorio\app Escritorio\SolucionFermeWPF\FermeWPF\bin\Debug\FermeNegocio.pdb
+C:\Users\javie\OneDrive\Escritorio\app Escritorio\SolucionFermeWPF\FermeWPF\bin\Debug\FermeNegocio.dll.config
+C:\Users\javie\OneDrive\Escritorio\app Escritorio\SolucionFermeWPF\FermeWPF\bin\Debug\EntityFramework.xml
+C:\Users\javie\OneDrive\Escritorio\app Escritorio\SolucionFermeWPF\FermeWPF\obj\Debug\FermeWPF.csprojAssemblyReference.cache
+C:\Users\javie\OneDrive\Escritorio\app Escritorio\SolucionFermeWPF\FermeWPF\obj\Debug\MainWindow.g.cs
+C:\Users\javie\OneDrive\Escritorio\app Escritorio\SolucionFermeWPF\FermeWPF\obj\Debug\App.g.cs
+C:\Users\javie\OneDrive\Escritorio\app Escritorio\SolucionFermeWPF\FermeWPF\obj\Debug\FermeWPF_MarkupCompile.cache
+C:\Users\javie\OneDrive\Escritorio\app Escritorio\SolucionFermeWPF\FermeWPF\obj\Debug\FermeWPF_MarkupCompile.lref
+C:\Users\javie\OneDrive\Escritorio\app Escritorio\SolucionFermeWPF\FermeWPF\obj\Debug\MainWindow.baml
+C:\Users\javie\OneDrive\Escritorio\app Escritorio\SolucionFermeWPF\FermeWPF\obj\Debug\FermeWPF.g.resources
+C:\Users\javie\OneDrive\Escritorio\app Escritorio\SolucionFermeWPF\FermeWPF\obj\Debug\FermeWPF.Properties.Resources.resources
+C:\Users\javie\OneDrive\Escritorio\app Escritorio\SolucionFermeWPF\FermeWPF\obj\Debug\FermeWPF.csproj.GenerateResource.cache
+C:\Users\javie\OneDrive\Escritorio\app Escritorio\SolucionFermeWPF\FermeWPF\obj\Debug\FermeWPF.csproj.CoreCompileInputs.cache
+C:\Users\javie\OneDrive\Escritorio\app Escritorio\SolucionFermeWPF\FermeWPF\obj\Debug\FermeWPF.csproj.CopyComplete
+C:\Users\javie\OneDrive\Escritorio\app Escritorio\SolucionFermeWPF\FermeWPF\obj\Debug\FermeWPF.exe
+C:\Users\javie\OneDrive\Escritorio\app Escritorio\SolucionFermeWPF\FermeWPF\obj\Debug\FermeWPF.pdb
+C:\Users\javie\OneDrive\Escritorio\PORTAFOLIO\app Escritorio\SolucionFermeWPF\FermeWPF\bin\Debug\FermeWPF.exe.config
+C:\Users\javie\OneDrive\Escritorio\PORTAFOLIO\app Escritorio\SolucionFermeWPF\FermeWPF\bin\Debug\FermeWPF.exe
+C:\Users\javie\OneDrive\Escritorio\PORTAFOLIO\app Escritorio\SolucionFermeWPF\FermeWPF\bin\Debug\FermeWPF.pdb
+C:\Users\javie\OneDrive\Escritorio\PORTAFOLIO\app Escritorio\SolucionFermeWPF\FermeWPF\bin\Debug\ControlzEx.dll
+C:\Users\javie\OneDrive\Escritorio\PORTAFOLIO\app Escritorio\SolucionFermeWPF\FermeWPF\bin\Debug\FermeDatos.dll
+C:\Users\javie\OneDrive\Escritorio\PORTAFOLIO\app Escritorio\SolucionFermeWPF\FermeWPF\bin\Debug\FermeNegocio.dll
+C:\Users\javie\OneDrive\Escritorio\PORTAFOLIO\app Escritorio\SolucionFermeWPF\FermeWPF\bin\Debug\MahApps.Metro.dll
+C:\Users\javie\OneDrive\Escritorio\PORTAFOLIO\app Escritorio\SolucionFermeWPF\FermeWPF\bin\Debug\Microsoft.Xaml.Behaviors.dll
+C:\Users\javie\OneDrive\Escritorio\PORTAFOLIO\app Escritorio\SolucionFermeWPF\FermeWPF\bin\Debug\Oracle.ManagedDataAccess.dll
+C:\Users\javie\OneDrive\Escritorio\PORTAFOLIO\app Escritorio\SolucionFermeWPF\FermeWPF\bin\Debug\EntityFramework.dll
+C:\Users\javie\OneDrive\Escritorio\PORTAFOLIO\app Escritorio\SolucionFermeWPF\FermeWPF\bin\Debug\FermeDatos.pdb
+C:\Users\javie\OneDrive\Escritorio\PORTAFOLIO\app Escritorio\SolucionFermeWPF\FermeWPF\bin\Debug\FermeDatos.dll.config
+C:\Users\javie\OneDrive\Escritorio\PORTAFOLIO\app Escritorio\SolucionFermeWPF\FermeWPF\bin\Debug\FermeNegocio.pdb
+C:\Users\javie\OneDrive\Escritorio\PORTAFOLIO\app Escritorio\SolucionFermeWPF\FermeWPF\bin\Debug\FermeNegocio.dll.config
+C:\Users\javie\OneDrive\Escritorio\PORTAFOLIO\app Escritorio\SolucionFermeWPF\FermeWPF\bin\Debug\ControlzEx.pdb
+C:\Users\javie\OneDrive\Escritorio\PORTAFOLIO\app Escritorio\SolucionFermeWPF\FermeWPF\bin\Debug\ControlzEx.xml
+C:\Users\javie\OneDrive\Escritorio\PORTAFOLIO\app Escritorio\SolucionFermeWPF\FermeWPF\bin\Debug\MahApps.Metro.pdb
+C:\Users\javie\OneDrive\Escritorio\PORTAFOLIO\app Escritorio\SolucionFermeWPF\FermeWPF\bin\Debug\MahApps.Metro.xml
+C:\Users\javie\OneDrive\Escritorio\PORTAFOLIO\app Escritorio\SolucionFermeWPF\FermeWPF\bin\Debug\Microsoft.Xaml.Behaviors.pdb
+C:\Users\javie\OneDrive\Escritorio\PORTAFOLIO\app Escritorio\SolucionFermeWPF\FermeWPF\bin\Debug\Microsoft.Xaml.Behaviors.xml
+C:\Users\javie\OneDrive\Escritorio\PORTAFOLIO\app Escritorio\SolucionFermeWPF\FermeWPF\bin\Debug\EntityFramework.xml
+C:\Users\javie\OneDrive\Escritorio\PORTAFOLIO\app Escritorio\SolucionFermeWPF\FermeWPF\bin\Debug\de\MahApps.Metro.resources.dll
+C:\Users\javie\OneDrive\Escritorio\PORTAFOLIO\app Escritorio\SolucionFermeWPF\FermeWPF\obj\Debug\FermeWPF.csprojAssemblyReference.cache
+C:\Users\javie\OneDrive\Escritorio\PORTAFOLIO\app Escritorio\SolucionFermeWPF\FermeWPF\obj\Debug\Resources\Icons.baml
+C:\Users\javie\OneDrive\Escritorio\PORTAFOLIO\app Escritorio\SolucionFermeWPF\FermeWPF\obj\Debug\Resources\IconsNonShared.baml
+C:\Users\javie\OneDrive\Escritorio\PORTAFOLIO\app Escritorio\SolucionFermeWPF\FermeWPF\obj\Debug\Inicio.g.cs
+C:\Users\javie\OneDrive\Escritorio\PORTAFOLIO\app Escritorio\SolucionFermeWPF\FermeWPF\obj\Debug\Login.g.cs
+C:\Users\javie\OneDrive\Escritorio\PORTAFOLIO\app Escritorio\SolucionFermeWPF\FermeWPF\obj\Debug\App.g.cs
+C:\Users\javie\OneDrive\Escritorio\PORTAFOLIO\app Escritorio\SolucionFermeWPF\FermeWPF\obj\Debug\FermeWPF_MarkupCompile.cache
+C:\Users\javie\OneDrive\Escritorio\PORTAFOLIO\app Escritorio\SolucionFermeWPF\FermeWPF\obj\Debug\FermeWPF_MarkupCompile.lref
+C:\Users\javie\OneDrive\Escritorio\PORTAFOLIO\app Escritorio\SolucionFermeWPF\FermeWPF\obj\Debug\App.baml
+C:\Users\javie\OneDrive\Escritorio\PORTAFOLIO\app Escritorio\SolucionFermeWPF\FermeWPF\obj\Debug\Inicio.baml
+C:\Users\javie\OneDrive\Escritorio\PORTAFOLIO\app Escritorio\SolucionFermeWPF\FermeWPF\obj\Debug\Login.baml
+C:\Users\javie\OneDrive\Escritorio\PORTAFOLIO\app Escritorio\SolucionFermeWPF\FermeWPF\obj\Debug\Resources\Styles.baml
+C:\Users\javie\OneDrive\Escritorio\PORTAFOLIO\app Escritorio\SolucionFermeWPF\FermeWPF\obj\Debug\FermeWPF.g.resources
+C:\Users\javie\OneDrive\Escritorio\PORTAFOLIO\app Escritorio\SolucionFermeWPF\FermeWPF\obj\Debug\FermeWPF.Properties.Resources.resources
+C:\Users\javie\OneDrive\Escritorio\PORTAFOLIO\app Escritorio\SolucionFermeWPF\FermeWPF\obj\Debug\FermeWPF.csproj.GenerateResource.cache
+C:\Users\javie\OneDrive\Escritorio\PORTAFOLIO\app Escritorio\SolucionFermeWPF\FermeWPF\obj\Debug\FermeWPF.csproj.CoreCompileInputs.cache
+C:\Users\javie\OneDrive\Escritorio\PORTAFOLIO\app Escritorio\SolucionFermeWPF\FermeWPF\obj\Debug\FermeWPF.csproj.CopyComplete
+C:\Users\javie\OneDrive\Escritorio\PORTAFOLIO\app Escritorio\SolucionFermeWPF\FermeWPF\obj\Debug\FermeWPF.exe
+C:\Users\javie\OneDrive\Escritorio\PORTAFOLIO\app Escritorio\SolucionFermeWPF\FermeWPF\obj\Debug\FermeWPF.pdb
+C:\Users\javie\OneDrive\Escritorio\PORTAFOLIO\app Escritorio\SolucionFermeWPF\FermeWPF\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\javie\OneDrive\Escritorio\PORTAFOLIO\app Escritorio\SolucionFermeWPF\FermeWPF\bin\Debug\Common.Logging.Core.dll
+C:\Users\javie\OneDrive\Escritorio\PORTAFOLIO\app Escritorio\SolucionFermeWPF\FermeWPF\bin\Debug\Common.Logging.dll
+C:\Users\javie\OneDrive\Escritorio\PORTAFOLIO\app Escritorio\SolucionFermeWPF\FermeWPF\bin\Debug\itext.barcodes.dll
+C:\Users\javie\OneDrive\Escritorio\PORTAFOLIO\app Escritorio\SolucionFermeWPF\FermeWPF\bin\Debug\itext.forms.dll
+C:\Users\javie\OneDrive\Escritorio\PORTAFOLIO\app Escritorio\SolucionFermeWPF\FermeWPF\bin\Debug\itext.io.dll
+C:\Users\javie\OneDrive\Escritorio\PORTAFOLIO\app Escritorio\SolucionFermeWPF\FermeWPF\bin\Debug\itext.kernel.dll
+C:\Users\javie\OneDrive\Escritorio\PORTAFOLIO\app Escritorio\SolucionFermeWPF\FermeWPF\bin\Debug\itext.layout.dll
+C:\Users\javie\OneDrive\Escritorio\PORTAFOLIO\app Escritorio\SolucionFermeWPF\FermeWPF\bin\Debug\itext.pdfa.dll
+C:\Users\javie\OneDrive\Escritorio\PORTAFOLIO\app Escritorio\SolucionFermeWPF\FermeWPF\bin\Debug\itext.sign.dll
+C:\Users\javie\OneDrive\Escritorio\PORTAFOLIO\app Escritorio\SolucionFermeWPF\FermeWPF\bin\Debug\itext.styledxmlparser.dll
+C:\Users\javie\OneDrive\Escritorio\PORTAFOLIO\app Escritorio\SolucionFermeWPF\FermeWPF\bin\Debug\itext.svg.dll
+C:\Users\javie\OneDrive\Escritorio\PORTAFOLIO\app Escritorio\SolucionFermeWPF\FermeWPF\bin\Debug\BouncyCastle.Crypto.xml
+C:\Users\javie\OneDrive\Escritorio\PORTAFOLIO\app Escritorio\SolucionFermeWPF\FermeWPF\bin\Debug\Common.Logging.pdb
+C:\Users\javie\OneDrive\Escritorio\PORTAFOLIO\app Escritorio\SolucionFermeWPF\FermeWPF\bin\Debug\Common.Logging.xml
+C:\Users\javie\OneDrive\Escritorio\PORTAFOLIO\app Escritorio\SolucionFermeWPF\FermeWPF\bin\Debug\Common.Logging.Core.pdb
+C:\Users\javie\OneDrive\Escritorio\PORTAFOLIO\app Escritorio\SolucionFermeWPF\FermeWPF\bin\Debug\Common.Logging.Core.xml
+C:\Users\javie\OneDrive\Escritorio\PORTAFOLIO\app Escritorio\SolucionFermeWPF\FermeWPF\bin\Debug\itext.barcodes.xml
+C:\Users\javie\OneDrive\Escritorio\PORTAFOLIO\app Escritorio\SolucionFermeWPF\FermeWPF\bin\Debug\itext.forms.xml
+C:\Users\javie\OneDrive\Escritorio\PORTAFOLIO\app Escritorio\SolucionFermeWPF\FermeWPF\bin\Debug\itext.io.xml
+C:\Users\javie\OneDrive\Escritorio\PORTAFOLIO\app Escritorio\SolucionFermeWPF\FermeWPF\bin\Debug\itext.kernel.xml
+C:\Users\javie\OneDrive\Escritorio\PORTAFOLIO\app Escritorio\SolucionFermeWPF\FermeWPF\bin\Debug\itext.layout.xml
+C:\Users\javie\OneDrive\Escritorio\PORTAFOLIO\app Escritorio\SolucionFermeWPF\FermeWPF\bin\Debug\itext.pdfa.xml
+C:\Users\javie\OneDrive\Escritorio\PORTAFOLIO\app Escritorio\SolucionFermeWPF\FermeWPF\bin\Debug\itext.sign.xml
+C:\Users\javie\OneDrive\Escritorio\PORTAFOLIO\app Escritorio\SolucionFermeWPF\FermeWPF\bin\Debug\itext.styledxmlparser.xml
+C:\Users\javie\OneDrive\Escritorio\PORTAFOLIO\app Escritorio\SolucionFermeWPF\FermeWPF\bin\Debug\itext.svg.xml
+C:\Users\javie\OneDrive\Escritorio\PORTAFOLIO\app Escritorio\SolucionFermeWPF\FermeWPF\obj\Debug\Productos.g.cs
+C:\Users\javie\OneDrive\Escritorio\PORTAFOLIO\app Escritorio\SolucionFermeWPF\FermeWPF\obj\Debug\Productos.baml
+C:\Users\javie\OneDrive\Escritorio\⠀\PORTAFOLIO\app Escritorio\SolucionFermeWPF\FermeWPF\bin\Debug\FermeWPF.exe.config
+C:\Users\javie\OneDrive\Escritorio\⠀\PORTAFOLIO\app Escritorio\SolucionFermeWPF\FermeWPF\bin\Debug\FermeWPF.exe
+C:\Users\javie\OneDrive\Escritorio\⠀\PORTAFOLIO\app Escritorio\SolucionFermeWPF\FermeWPF\bin\Debug\FermeWPF.pdb
+C:\Users\javie\OneDrive\Escritorio\⠀\PORTAFOLIO\app Escritorio\SolucionFermeWPF\FermeWPF\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\javie\OneDrive\Escritorio\⠀\PORTAFOLIO\app Escritorio\SolucionFermeWPF\FermeWPF\bin\Debug\Common.Logging.Core.dll
+C:\Users\javie\OneDrive\Escritorio\⠀\PORTAFOLIO\app Escritorio\SolucionFermeWPF\FermeWPF\bin\Debug\Common.Logging.dll
+C:\Users\javie\OneDrive\Escritorio\⠀\PORTAFOLIO\app Escritorio\SolucionFermeWPF\FermeWPF\bin\Debug\ControlzEx.dll
+C:\Users\javie\OneDrive\Escritorio\⠀\PORTAFOLIO\app Escritorio\SolucionFermeWPF\FermeWPF\bin\Debug\FermeDatos.dll
+C:\Users\javie\OneDrive\Escritorio\⠀\PORTAFOLIO\app Escritorio\SolucionFermeWPF\FermeWPF\bin\Debug\FermeNegocio.dll
+C:\Users\javie\OneDrive\Escritorio\⠀\PORTAFOLIO\app Escritorio\SolucionFermeWPF\FermeWPF\bin\Debug\itext.barcodes.dll
+C:\Users\javie\OneDrive\Escritorio\⠀\PORTAFOLIO\app Escritorio\SolucionFermeWPF\FermeWPF\bin\Debug\itext.forms.dll
+C:\Users\javie\OneDrive\Escritorio\⠀\PORTAFOLIO\app Escritorio\SolucionFermeWPF\FermeWPF\bin\Debug\itext.io.dll
+C:\Users\javie\OneDrive\Escritorio\⠀\PORTAFOLIO\app Escritorio\SolucionFermeWPF\FermeWPF\bin\Debug\itext.kernel.dll
+C:\Users\javie\OneDrive\Escritorio\⠀\PORTAFOLIO\app Escritorio\SolucionFermeWPF\FermeWPF\bin\Debug\itext.layout.dll
+C:\Users\javie\OneDrive\Escritorio\⠀\PORTAFOLIO\app Escritorio\SolucionFermeWPF\FermeWPF\bin\Debug\itext.pdfa.dll
+C:\Users\javie\OneDrive\Escritorio\⠀\PORTAFOLIO\app Escritorio\SolucionFermeWPF\FermeWPF\bin\Debug\itext.sign.dll
+C:\Users\javie\OneDrive\Escritorio\⠀\PORTAFOLIO\app Escritorio\SolucionFermeWPF\FermeWPF\bin\Debug\itext.styledxmlparser.dll
+C:\Users\javie\OneDrive\Escritorio\⠀\PORTAFOLIO\app Escritorio\SolucionFermeWPF\FermeWPF\bin\Debug\itext.svg.dll
+C:\Users\javie\OneDrive\Escritorio\⠀\PORTAFOLIO\app Escritorio\SolucionFermeWPF\FermeWPF\bin\Debug\MahApps.Metro.dll
+C:\Users\javie\OneDrive\Escritorio\⠀\PORTAFOLIO\app Escritorio\SolucionFermeWPF\FermeWPF\bin\Debug\Microsoft.Xaml.Behaviors.dll
+C:\Users\javie\OneDrive\Escritorio\⠀\PORTAFOLIO\app Escritorio\SolucionFermeWPF\FermeWPF\bin\Debug\Oracle.ManagedDataAccess.dll
+C:\Users\javie\OneDrive\Escritorio\⠀\PORTAFOLIO\app Escritorio\SolucionFermeWPF\FermeWPF\bin\Debug\EntityFramework.dll
+C:\Users\javie\OneDrive\Escritorio\⠀\PORTAFOLIO\app Escritorio\SolucionFermeWPF\FermeWPF\bin\Debug\FermeDatos.pdb
+C:\Users\javie\OneDrive\Escritorio\⠀\PORTAFOLIO\app Escritorio\SolucionFermeWPF\FermeWPF\bin\Debug\FermeDatos.dll.config
+C:\Users\javie\OneDrive\Escritorio\⠀\PORTAFOLIO\app Escritorio\SolucionFermeWPF\FermeWPF\bin\Debug\FermeNegocio.pdb
+C:\Users\javie\OneDrive\Escritorio\⠀\PORTAFOLIO\app Escritorio\SolucionFermeWPF\FermeWPF\bin\Debug\FermeNegocio.dll.config
+C:\Users\javie\OneDrive\Escritorio\⠀\PORTAFOLIO\app Escritorio\SolucionFermeWPF\FermeWPF\bin\Debug\BouncyCastle.Crypto.xml
+C:\Users\javie\OneDrive\Escritorio\⠀\PORTAFOLIO\app Escritorio\SolucionFermeWPF\FermeWPF\bin\Debug\Common.Logging.pdb
+C:\Users\javie\OneDrive\Escritorio\⠀\PORTAFOLIO\app Escritorio\SolucionFermeWPF\FermeWPF\bin\Debug\Common.Logging.xml
+C:\Users\javie\OneDrive\Escritorio\⠀\PORTAFOLIO\app Escritorio\SolucionFermeWPF\FermeWPF\bin\Debug\Common.Logging.Core.pdb
+C:\Users\javie\OneDrive\Escritorio\⠀\PORTAFOLIO\app Escritorio\SolucionFermeWPF\FermeWPF\bin\Debug\Common.Logging.Core.xml
+C:\Users\javie\OneDrive\Escritorio\⠀\PORTAFOLIO\app Escritorio\SolucionFermeWPF\FermeWPF\bin\Debug\ControlzEx.pdb
+C:\Users\javie\OneDrive\Escritorio\⠀\PORTAFOLIO\app Escritorio\SolucionFermeWPF\FermeWPF\bin\Debug\ControlzEx.xml
+C:\Users\javie\OneDrive\Escritorio\⠀\PORTAFOLIO\app Escritorio\SolucionFermeWPF\FermeWPF\bin\Debug\itext.barcodes.xml
+C:\Users\javie\OneDrive\Escritorio\⠀\PORTAFOLIO\app Escritorio\SolucionFermeWPF\FermeWPF\bin\Debug\itext.forms.xml
+C:\Users\javie\OneDrive\Escritorio\⠀\PORTAFOLIO\app Escritorio\SolucionFermeWPF\FermeWPF\bin\Debug\itext.io.xml
+C:\Users\javie\OneDrive\Escritorio\⠀\PORTAFOLIO\app Escritorio\SolucionFermeWPF\FermeWPF\bin\Debug\itext.kernel.xml
+C:\Users\javie\OneDrive\Escritorio\⠀\PORTAFOLIO\app Escritorio\SolucionFermeWPF\FermeWPF\bin\Debug\itext.layout.xml
+C:\Users\javie\OneDrive\Escritorio\⠀\PORTAFOLIO\app Escritorio\SolucionFermeWPF\FermeWPF\bin\Debug\itext.pdfa.xml
+C:\Users\javie\OneDrive\Escritorio\⠀\PORTAFOLIO\app Escritorio\SolucionFermeWPF\FermeWPF\bin\Debug\itext.sign.xml
+C:\Users\javie\OneDrive\Escritorio\⠀\PORTAFOLIO\app Escritorio\SolucionFermeWPF\FermeWPF\bin\Debug\itext.styledxmlparser.xml
+C:\Users\javie\OneDrive\Escritorio\⠀\PORTAFOLIO\app Escritorio\SolucionFermeWPF\FermeWPF\bin\Debug\itext.svg.xml
+C:\Users\javie\OneDrive\Escritorio\⠀\PORTAFOLIO\app Escritorio\SolucionFermeWPF\FermeWPF\bin\Debug\MahApps.Metro.pdb
+C:\Users\javie\OneDrive\Escritorio\⠀\PORTAFOLIO\app Escritorio\SolucionFermeWPF\FermeWPF\bin\Debug\MahApps.Metro.xml
+C:\Users\javie\OneDrive\Escritorio\⠀\PORTAFOLIO\app Escritorio\SolucionFermeWPF\FermeWPF\bin\Debug\Microsoft.Xaml.Behaviors.pdb
+C:\Users\javie\OneDrive\Escritorio\⠀\PORTAFOLIO\app Escritorio\SolucionFermeWPF\FermeWPF\bin\Debug\Microsoft.Xaml.Behaviors.xml
+C:\Users\javie\OneDrive\Escritorio\⠀\PORTAFOLIO\app Escritorio\SolucionFermeWPF\FermeWPF\bin\Debug\EntityFramework.xml
+C:\Users\javie\OneDrive\Escritorio\⠀\PORTAFOLIO\app Escritorio\SolucionFermeWPF\FermeWPF\bin\Debug\de\MahApps.Metro.resources.dll
+C:\Users\javie\OneDrive\Escritorio\⠀\PORTAFOLIO\app Escritorio\SolucionFermeWPF\FermeWPF\obj\Debug\FermeWPF.csprojAssemblyReference.cache
+C:\Users\javie\OneDrive\Escritorio\⠀\PORTAFOLIO\app Escritorio\SolucionFermeWPF\FermeWPF\obj\Debug\Resources\Icons.baml
+C:\Users\javie\OneDrive\Escritorio\⠀\PORTAFOLIO\app Escritorio\SolucionFermeWPF\FermeWPF\obj\Debug\Resources\IconsNonShared.baml
+C:\Users\javie\OneDrive\Escritorio\⠀\PORTAFOLIO\app Escritorio\SolucionFermeWPF\FermeWPF\obj\Debug\Inicio.g.cs
+C:\Users\javie\OneDrive\Escritorio\⠀\PORTAFOLIO\app Escritorio\SolucionFermeWPF\FermeWPF\obj\Debug\Login.g.cs
+C:\Users\javie\OneDrive\Escritorio\⠀\PORTAFOLIO\app Escritorio\SolucionFermeWPF\FermeWPF\obj\Debug\Productos.g.cs
+C:\Users\javie\OneDrive\Escritorio\⠀\PORTAFOLIO\app Escritorio\SolucionFermeWPF\FermeWPF\obj\Debug\App.g.cs
+C:\Users\javie\OneDrive\Escritorio\⠀\PORTAFOLIO\app Escritorio\SolucionFermeWPF\FermeWPF\obj\Debug\FermeWPF_MarkupCompile.cache
+C:\Users\javie\OneDrive\Escritorio\⠀\PORTAFOLIO\app Escritorio\SolucionFermeWPF\FermeWPF\obj\Debug\FermeWPF_MarkupCompile.lref
+C:\Users\javie\OneDrive\Escritorio\⠀\PORTAFOLIO\app Escritorio\SolucionFermeWPF\FermeWPF\obj\Debug\App.baml
+C:\Users\javie\OneDrive\Escritorio\⠀\PORTAFOLIO\app Escritorio\SolucionFermeWPF\FermeWPF\obj\Debug\Inicio.baml
+C:\Users\javie\OneDrive\Escritorio\⠀\PORTAFOLIO\app Escritorio\SolucionFermeWPF\FermeWPF\obj\Debug\Login.baml
+C:\Users\javie\OneDrive\Escritorio\⠀\PORTAFOLIO\app Escritorio\SolucionFermeWPF\FermeWPF\obj\Debug\Productos.baml
+C:\Users\javie\OneDrive\Escritorio\⠀\PORTAFOLIO\app Escritorio\SolucionFermeWPF\FermeWPF\obj\Debug\Resources\Styles.baml
+C:\Users\javie\OneDrive\Escritorio\⠀\PORTAFOLIO\app Escritorio\SolucionFermeWPF\FermeWPF\obj\Debug\FermeWPF.g.resources
+C:\Users\javie\OneDrive\Escritorio\⠀\PORTAFOLIO\app Escritorio\SolucionFermeWPF\FermeWPF\obj\Debug\FermeWPF.Properties.Resources.resources
+C:\Users\javie\OneDrive\Escritorio\⠀\PORTAFOLIO\app Escritorio\SolucionFermeWPF\FermeWPF\obj\Debug\FermeWPF.csproj.GenerateResource.cache
+C:\Users\javie\OneDrive\Escritorio\⠀\PORTAFOLIO\app Escritorio\SolucionFermeWPF\FermeWPF\obj\Debug\FermeWPF.csproj.CoreCompileInputs.cache
+C:\Users\javie\OneDrive\Escritorio\⠀\PORTAFOLIO\app Escritorio\SolucionFermeWPF\FermeWPF\obj\Debug\FermeWPF.csproj.CopyComplete
+C:\Users\javie\OneDrive\Escritorio\⠀\PORTAFOLIO\app Escritorio\SolucionFermeWPF\FermeWPF\obj\Debug\FermeWPF.exe
+C:\Users\javie\OneDrive\Escritorio\⠀\PORTAFOLIO\app Escritorio\SolucionFermeWPF\FermeWPF\obj\Debug\FermeWPF.pdb

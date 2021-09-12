@@ -1,0 +1,30 @@
+C:\Users\javie\source\repos\SolucionFermeWPF\FermeDatos\bin\Debug\FermeDatos.dll.config
+C:\Users\javie\source\repos\SolucionFermeWPF\FermeDatos\bin\Debug\FermeDatos.dll
+C:\Users\javie\source\repos\SolucionFermeWPF\FermeDatos\bin\Debug\FermeDatos.pdb
+C:\Users\javie\source\repos\SolucionFermeWPF\FermeDatos\bin\Debug\EntityFramework.dll
+C:\Users\javie\source\repos\SolucionFermeWPF\FermeDatos\bin\Debug\EntityFramework.xml
+C:\Users\javie\source\repos\SolucionFermeWPF\FermeDatos\obj\Debug\FermeDatos.csprojAssemblyReference.cache
+C:\Users\javie\source\repos\SolucionFermeWPF\FermeDatos\obj\Debug\FermeDatos.csproj.CoreCompileInputs.cache
+C:\Users\javie\source\repos\SolucionFermeWPF\FermeDatos\obj\Debug\FermeDatos.csproj.CopyComplete
+C:\Users\javie\source\repos\SolucionFermeWPF\FermeDatos\obj\Debug\FermeDatos.dll
+C:\Users\javie\source\repos\SolucionFermeWPF\FermeDatos\obj\Debug\FermeDatos.pdb
+C:\Users\javie\OneDrive\Escritorio\app Escritorio\SolucionFermeWPF\FermeDatos\bin\Debug\FermeDatos.dll.config
+C:\Users\javie\OneDrive\Escritorio\app Escritorio\SolucionFermeWPF\FermeDatos\bin\Debug\FermeDatos.dll
+C:\Users\javie\OneDrive\Escritorio\app Escritorio\SolucionFermeWPF\FermeDatos\bin\Debug\FermeDatos.pdb
+C:\Users\javie\OneDrive\Escritorio\app Escritorio\SolucionFermeWPF\FermeDatos\bin\Debug\EntityFramework.dll
+C:\Users\javie\OneDrive\Escritorio\app Escritorio\SolucionFermeWPF\FermeDatos\bin\Debug\EntityFramework.xml
+C:\Users\javie\OneDrive\Escritorio\app Escritorio\SolucionFermeWPF\FermeDatos\obj\Debug\FermeDatos.csprojAssemblyReference.cache
+C:\Users\javie\OneDrive\Escritorio\app Escritorio\SolucionFermeWPF\FermeDatos\obj\Debug\FermeDatos.csproj.CoreCompileInputs.cache
+C:\Users\javie\OneDrive\Escritorio\app Escritorio\SolucionFermeWPF\FermeDatos\obj\Debug\FermeDatos.csproj.CopyComplete
+C:\Users\javie\OneDrive\Escritorio\app Escritorio\SolucionFermeWPF\FermeDatos\obj\Debug\FermeDatos.dll
+C:\Users\javie\OneDrive\Escritorio\app Escritorio\SolucionFermeWPF\FermeDatos\obj\Debug\FermeDatos.pdb
+C:\Users\javie\OneDrive\Escritorio\PORTAFOLIO\app Escritorio\SolucionFermeWPF\FermeDatos\bin\Debug\FermeDatos.dll.config
+C:\Users\javie\OneDrive\Escritorio\PORTAFOLIO\app Escritorio\SolucionFermeWPF\FermeDatos\bin\Debug\FermeDatos.dll
+C:\Users\javie\OneDrive\Escritorio\PORTAFOLIO\app Escritorio\SolucionFermeWPF\FermeDatos\bin\Debug\FermeDatos.pdb
+C:\Users\javie\OneDrive\Escritorio\PORTAFOLIO\app Escritorio\SolucionFermeWPF\FermeDatos\bin\Debug\EntityFramework.dll
+C:\Users\javie\OneDrive\Escritorio\PORTAFOLIO\app Escritorio\SolucionFermeWPF\FermeDatos\bin\Debug\EntityFramework.xml
+C:\Users\javie\OneDrive\Escritorio\PORTAFOLIO\app Escritorio\SolucionFermeWPF\FermeDatos\obj\Debug\FermeDatos.csprojAssemblyReference.cache
+C:\Users\javie\OneDrive\Escritorio\PORTAFOLIO\app Escritorio\SolucionFermeWPF\FermeDatos\obj\Debug\FermeDatos.csproj.CoreCompileInputs.cache
+C:\Users\javie\OneDrive\Escritorio\PORTAFOLIO\app Escritorio\SolucionFermeWPF\FermeDatos\obj\Debug\FermeDatos.csproj.CopyComplete
+C:\Users\javie\OneDrive\Escritorio\PORTAFOLIO\app Escritorio\SolucionFermeWPF\FermeDatos\obj\Debug\FermeDatos.dll
+C:\Users\javie\OneDrive\Escritorio\PORTAFOLIO\app Escritorio\SolucionFermeWPF\FermeDatos\obj\Debug\FermeDatos.pdb

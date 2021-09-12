@@ -1,0 +1,776 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="ModeloEntities.Store" Provider="Oracle.ManagedDataAccess.Client" ProviderManifestToken="18.0" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="BOLETA">
+    <Key>
+      <PropertyRef Name="ID_BOLETA" />
+    </Key>
+    <Property Name="ID_BOLETA" Type="number" Precision="38" Scale="0" Nullable="false" />
+    <Property Name="FECHA_INGRESO" Type="date" Nullable="false" />
+    <Property Name="IVA" Type="number" Precision="10" Scale="5" Nullable="false" />
+    <Property Name="SUB_TOTAL" Type="number" Precision="38" Scale="0" Nullable="false" />
+    <Property Name="TOTAL" Type="number" Precision="38" Scale="0" Nullable="false" />
+    <Property Name="ID_USUARIO" Type="number" Precision="38" Scale="0" Nullable="false" />
+    <Property Name="ID_ESTADO" Type="number" Precision="38" Scale="0" Nullable="false" />
+    <Property Name="ID_PAGO" Type="number" Precision="38" Scale="0" Nullable="false" />
+    <Property Name="DESPACHO" Type="varchar2" MaxLength="100" />
+  </EntityType>
+  <EntityType Name="CARGO">
+    <Key>
+      <PropertyRef Name="ID_CARGO" />
+    </Key>
+    <Property Name="ID_CARGO" Type="number" Precision="38" Scale="0" Nullable="false" />
+    <Property Name="DESCRIPCION" Type="varchar2" MaxLength="20" Nullable="false" />
+  </EntityType>
+  <EntityType Name="CARRITO">
+    <Key>
+      <PropertyRef Name="ID_CARRITO" />
+    </Key>
+    <Property Name="ID_CARRITO" Type="number" Precision="38" Scale="0" Nullable="false" />
+    <Property Name="CANTIDAD_PROD" Type="number" Precision="38" Scale="0" Nullable="false" />
+    <Property Name="ID_USUARIO" Type="number" Precision="38" Scale="0" Nullable="false" />
+    <Property Name="ID_PRODUCTO" Type="number" Precision="38" Scale="0" Nullable="false" />
+  </EntityType>
+  <EntityType Name="CLIENTE">
+    <Key>
+      <PropertyRef Name="ID_CLIENTE" />
+    </Key>
+    <Property Name="ID_CLIENTE" Type="number" Precision="38" Scale="0" Nullable="false" />
+    <Property Name="RUT_CLI" Type="varchar2" MaxLength="40" Nullable="false" />
+    <Property Name="NOMBRES" Type="varchar2" MaxLength="40" Nullable="false" />
+    <Property Name="APELLIDOS" Type="varchar2" MaxLength="40" />
+    <Property Name="NACIMIENTO" Type="date" />
+    <Property Name="FONO" Type="number" Precision="38" Scale="0" />
+    <Property Name="EMAIL" Type="varchar2" MaxLength="30" />
+    <Property Name="ID_TIPO" Type="number" Precision="38" Scale="0" Nullable="false" />
+    <Property Name="ID_USUARIO" Type="number" Precision="38" Scale="0" Nullable="false" />
+  </EntityType>
+  <!--Errores durante la generación:
+advertencia 6047: The Entity Framework provider in use reported the primary key column ID_DETALLE on table DETALLE_BOLETA to be nullable. Entity Framework does not allow nullable primary keys, therefore it will assume the column is not nullable and any null values stored in this column may cause errors at runtime.-->
+  <EntityType Name="DETALLE_BOLETA">
+    <Key>
+      <PropertyRef Name="ID_DETALLE" />
+    </Key>
+    <Property Name="ID_DETALLE" Type="number" Precision="38" Scale="0" Nullable="false" />
+    <Property Name="CANTIDAD_PROD" Type="number" Precision="38" Scale="0" />
+    <Property Name="PRECIO_UNI" Type="number" Precision="38" Scale="0" />
+    <Property Name="PRECIO_TOTAL" Type="number" Precision="38" Scale="0" />
+    <Property Name="ID_PRODUCTO" Type="number" Precision="38" Scale="0" />
+    <Property Name="ID_BOLETA" Type="number" Precision="38" Scale="0" />
+  </EntityType>
+  <EntityType Name="DETALLE_FACTURA">
+    <Key>
+      <PropertyRef Name="ID_DETALLE" />
+    </Key>
+    <Property Name="ID_DETALLE" Type="number" Precision="38" Scale="0" Nullable="false" />
+    <Property Name="CANTIDAD_PROD" Type="number" Precision="38" Scale="0" Nullable="false" />
+    <Property Name="PRECIO_UNI" Type="number" Precision="38" Scale="0" Nullable="false" />
+    <Property Name="PRECIO_TOTAL" Type="number" Precision="38" Scale="0" Nullable="false" />
+    <Property Name="ID_PRODUCTO" Type="number" Precision="38" Scale="0" Nullable="false" />
+    <Property Name="ID_FACTURA" Type="number" Precision="38" Scale="0" Nullable="false" />
+  </EntityType>
+  <EntityType Name="DETALLE_ORDEN">
+    <Key>
+      <PropertyRef Name="ID_DETALLE" />
+    </Key>
+    <Property Name="ID_DETALLE" Type="number" Precision="38" Scale="0" Nullable="false" />
+    <Property Name="CANTIDAD_PROD" Type="number" Precision="38" Scale="0" Nullable="false" />
+    <Property Name="ID_ORDEN" Type="number" Precision="38" Scale="0" Nullable="false" />
+    <Property Name="ID_PRODUCTO" Type="number" Precision="38" Scale="0" Nullable="false" />
+  </EntityType>
+  <EntityType Name="DOMICILIO">
+    <Key>
+      <PropertyRef Name="ID_DOMICILIO" />
+    </Key>
+    <Property Name="ID_DOMICILIO" Type="number" Precision="38" Scale="0" Nullable="false" />
+    <Property Name="REGION" Type="varchar2" MaxLength="30" Nullable="false" />
+    <Property Name="COMUNA" Type="varchar2" MaxLength="30" Nullable="false" />
+    <Property Name="DIRECCION" Type="varchar2" MaxLength="200" Nullable="false" />
+    <Property Name="ID_USUARIO" Type="number" Precision="38" Scale="0" />
+  </EntityType>
+  <EntityType Name="EMPLEADO">
+    <Key>
+      <PropertyRef Name="ID_EMPLEADO" />
+    </Key>
+    <Property Name="ID_EMPLEADO" Type="number" Precision="38" Scale="0" Nullable="false" />
+    <Property Name="RUT_EMP" Type="varchar2" MaxLength="20" Nullable="false" />
+    <Property Name="NOMBRES" Type="varchar2" MaxLength="30" Nullable="false" />
+    <Property Name="APELLIDOS" Type="varchar2" MaxLength="40" Nullable="false" />
+    <Property Name="ID_CARGO" Type="number" Precision="38" Scale="0" Nullable="false" />
+    <Property Name="ID_USUARIO" Type="number" Precision="38" Scale="0" Nullable="false" />
+  </EntityType>
+  <EntityType Name="ESTADO_COMPRA">
+    <Key>
+      <PropertyRef Name="ID_ESTADO" />
+    </Key>
+    <Property Name="ID_ESTADO" Type="number" Precision="38" Scale="0" Nullable="false" />
+    <Property Name="DESCRIPCION" Type="varchar2" MaxLength="20" />
+  </EntityType>
+  <EntityType Name="ESTADO_ORDEN">
+    <Key>
+      <PropertyRef Name="ID_ESTADO" />
+    </Key>
+    <Property Name="ID_ESTADO" Type="number" Precision="38" Scale="0" Nullable="false" />
+    <Property Name="DESCRIPCION" Type="varchar2" MaxLength="30" Nullable="false" />
+  </EntityType>
+  <EntityType Name="FACTURA">
+    <Key>
+      <PropertyRef Name="ID_FACTURA" />
+    </Key>
+    <Property Name="ID_FACTURA" Type="number" Precision="38" Scale="0" Nullable="false" />
+    <Property Name="FECHA_INGRESO" Type="date" Nullable="false" />
+    <Property Name="IVA" Type="number" Precision="10" Scale="5" Nullable="false" />
+    <Property Name="SUB_TOTAL" Type="number" Precision="38" Scale="0" Nullable="false" />
+    <Property Name="TOTAL" Type="number" Precision="38" Scale="0" Nullable="false" />
+    <Property Name="ID_USUARIO" Type="number" Precision="38" Scale="0" />
+    <Property Name="ID_ESTADO" Type="number" Precision="38" Scale="0" />
+    <Property Name="ID_PAGO" Type="number" Precision="38" Scale="0" Nullable="false" />
+    <Property Name="DESPACHO" Type="varchar2" MaxLength="100" />
+  </EntityType>
+  <EntityType Name="FAMILIA_PROD">
+    <Key>
+      <PropertyRef Name="ID_FAMILIA" />
+    </Key>
+    <Property Name="ID_FAMILIA" Type="number" Precision="38" Scale="0" Nullable="false" />
+    <Property Name="DESCRIPCION" Type="varchar2" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="FOTO_PROD">
+    <Key>
+      <PropertyRef Name="ID_FOTO" />
+    </Key>
+    <Property Name="ID_FOTO" Type="number" Precision="38" Scale="0" Nullable="false" />
+    <Property Name="ID_PRODUCTO" Type="number" Precision="38" Scale="0" />
+    <Property Name="FOTO" Type="clob" />
+  </EntityType>
+  <EntityType Name="METODO_PAGO">
+    <Key>
+      <PropertyRef Name="ID_PAGO" />
+    </Key>
+    <Property Name="ID_PAGO" Type="number" Precision="38" Scale="0" Nullable="false" />
+    <Property Name="DESCRIPCION" Type="varchar2" MaxLength="40" Nullable="false" />
+  </EntityType>
+  <EntityType Name="ORDEN_COMPRA">
+    <Key>
+      <PropertyRef Name="ID_ORDEN" />
+    </Key>
+    <Property Name="ID_ORDEN" Type="number" Precision="38" Scale="0" Nullable="false" />
+    <Property Name="FECHA_INGRESO" Type="date" Nullable="false" />
+    <Property Name="ID_USUARIO" Type="number" Precision="38" Scale="0" />
+    <Property Name="ID_ESTADO" Type="number" Precision="38" Scale="0" />
+    <Property Name="ID_PROVEEDOR" Type="number" Precision="38" Scale="0" />
+  </EntityType>
+  <EntityType Name="PRODUCTO">
+    <Key>
+      <PropertyRef Name="ID_PRODUCTO" />
+    </Key>
+    <Property Name="ID_PRODUCTO" Type="number" Precision="38" Scale="0" Nullable="false" />
+    <Property Name="DESCRIPCION" Type="varchar2" MaxLength="200" Nullable="false" />
+    <Property Name="VENCIMIENTO" Type="varchar2" MaxLength="20" />
+    <Property Name="PRECIO" Type="number" Precision="38" Scale="0" Nullable="false" />
+    <Property Name="STOCK" Type="number" Precision="38" Scale="0" Nullable="false" />
+    <Property Name="STOCK_CRITICO" Type="number" Precision="38" Scale="0" Nullable="false" />
+    <Property Name="ID_USUARIO" Type="number" Precision="38" Scale="0" Nullable="false" />
+    <Property Name="ID_FAMILIA" Type="number" Precision="38" Scale="0" Nullable="false" />
+    <Property Name="ID_TIPO" Type="number" Precision="38" Scale="0" />
+    <Property Name="ACTIVO" Type="number" Precision="38" Scale="0" />
+  </EntityType>
+  <EntityType Name="PROVEEDOR">
+    <Key>
+      <PropertyRef Name="ID_PROVEEDOR" />
+    </Key>
+    <Property Name="ID_PROVEEDOR" Type="number" Precision="38" Scale="0" Nullable="false" />
+    <Property Name="RUT_PROVEE" Type="varchar2" MaxLength="20" Nullable="false" />
+    <Property Name="NOMBRE" Type="varchar2" MaxLength="40" Nullable="false" />
+    <Property Name="CELULAR" Type="number" Precision="38" Scale="0" Nullable="false" />
+    <Property Name="ID_USUARIO" Type="number" Precision="38" Scale="0" Nullable="false" />
+    <Property Name="ID_RUBRO" Type="number" Precision="38" Scale="0" Nullable="false" />
+  </EntityType>
+  <EntityType Name="RUBRO">
+    <Key>
+      <PropertyRef Name="ID_RUBRO" />
+    </Key>
+    <Property Name="ID_RUBRO" Type="number" Precision="38" Scale="0" Nullable="false" />
+    <Property Name="DESCRIPCION" Type="varchar2" MaxLength="20" Nullable="false" />
+  </EntityType>
+  <EntityType Name="TIPO_CLIENTE">
+    <Key>
+      <PropertyRef Name="ID_TIPO" />
+    </Key>
+    <Property Name="ID_TIPO" Type="number" Precision="38" Scale="0" Nullable="false" />
+    <Property Name="DESCRIPCION" Type="varchar2" MaxLength="20" Nullable="false" />
+  </EntityType>
+  <EntityType Name="TIPO_PROD">
+    <Key>
+      <PropertyRef Name="ID_TIPO" />
+    </Key>
+    <Property Name="ID_TIPO" Type="number" Precision="38" Scale="0" Nullable="false" />
+    <Property Name="DESCRIPCION" Type="varchar2" MaxLength="100" Nullable="false" />
+    <Property Name="ID_FAMILIA" Type="number" Precision="38" Scale="0" Nullable="false" />
+  </EntityType>
+  <EntityType Name="USUARIO">
+    <Key>
+      <PropertyRef Name="ID_USUARIO" />
+    </Key>
+    <Property Name="ID_USUARIO" Type="number" Precision="38" Scale="0" Nullable="false" />
+    <Property Name="USERNAME" Type="varchar2" MaxLength="20" Nullable="false" />
+    <Property Name="PASSWORD" Type="varchar2" MaxLength="150" />
+  </EntityType>
+  <Association Name="BOLETA_ESTADO_COMPRA_FK">
+    <End Role="ESTADO_COMPRA" Type="Self.ESTADO_COMPRA" Multiplicity="1" />
+    <End Role="BOLETA" Type="Self.BOLETA" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ESTADO_COMPRA">
+        <PropertyRef Name="ID_ESTADO" />
+      </Principal>
+      <Dependent Role="BOLETA">
+        <PropertyRef Name="ID_ESTADO" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="BOLETA_METODO_PAGO_FK">
+    <End Role="METODO_PAGO" Type="Self.METODO_PAGO" Multiplicity="1" />
+    <End Role="BOLETA" Type="Self.BOLETA" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="METODO_PAGO">
+        <PropertyRef Name="ID_PAGO" />
+      </Principal>
+      <Dependent Role="BOLETA">
+        <PropertyRef Name="ID_PAGO" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="BOLETA_USUARIO_FK">
+    <End Role="USUARIO" Type="Self.USUARIO" Multiplicity="1" />
+    <End Role="BOLETA" Type="Self.BOLETA" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="USUARIO">
+        <PropertyRef Name="ID_USUARIO" />
+      </Principal>
+      <Dependent Role="BOLETA">
+        <PropertyRef Name="ID_USUARIO" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="CLIENTE_TIPO_CLIENTE_FK">
+    <End Role="TIPO_CLIENTE" Type="Self.TIPO_CLIENTE" Multiplicity="1" />
+    <End Role="CLIENTE" Type="Self.CLIENTE" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TIPO_CLIENTE">
+        <PropertyRef Name="ID_TIPO" />
+      </Principal>
+      <Dependent Role="CLIENTE">
+        <PropertyRef Name="ID_TIPO" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="CLIENTE_USUARIO_FK">
+    <End Role="USUARIO" Type="Self.USUARIO" Multiplicity="1" />
+    <End Role="CLIENTE" Type="Self.CLIENTE" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="USUARIO">
+        <PropertyRef Name="ID_USUARIO" />
+      </Principal>
+      <Dependent Role="CLIENTE">
+        <PropertyRef Name="ID_USUARIO" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="DETALLE_BOLETA_BOLETA_FK">
+    <End Role="BOLETA" Type="Self.BOLETA" Multiplicity="0..1" />
+    <End Role="DETALLE_BOLETA" Type="Self.DETALLE_BOLETA" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="BOLETA">
+        <PropertyRef Name="ID_BOLETA" />
+      </Principal>
+      <Dependent Role="DETALLE_BOLETA">
+        <PropertyRef Name="ID_BOLETA" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="DETALLE_BOLETA_PRODUCTO_FK">
+    <End Role="PRODUCTO" Type="Self.PRODUCTO" Multiplicity="0..1" />
+    <End Role="DETALLE_BOLETA" Type="Self.DETALLE_BOLETA" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="PRODUCTO">
+        <PropertyRef Name="ID_PRODUCTO" />
+      </Principal>
+      <Dependent Role="DETALLE_BOLETA">
+        <PropertyRef Name="ID_PRODUCTO" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="DETALLE_FACTURA_FACTURA_FK">
+    <End Role="FACTURA" Type="Self.FACTURA" Multiplicity="1" />
+    <End Role="DETALLE_FACTURA" Type="Self.DETALLE_FACTURA" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="FACTURA">
+        <PropertyRef Name="ID_FACTURA" />
+      </Principal>
+      <Dependent Role="DETALLE_FACTURA">
+        <PropertyRef Name="ID_FACTURA" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="DETALLE_FACTURA_PRODUCTO_FK">
+    <End Role="PRODUCTO" Type="Self.PRODUCTO" Multiplicity="1" />
+    <End Role="DETALLE_FACTURA" Type="Self.DETALLE_FACTURA" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="PRODUCTO">
+        <PropertyRef Name="ID_PRODUCTO" />
+      </Principal>
+      <Dependent Role="DETALLE_FACTURA">
+        <PropertyRef Name="ID_PRODUCTO" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="DETALLE_ORDEN_ORDEN_COMPRA_FK">
+    <End Role="ORDEN_COMPRA" Type="Self.ORDEN_COMPRA" Multiplicity="1" />
+    <End Role="DETALLE_ORDEN" Type="Self.DETALLE_ORDEN" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ORDEN_COMPRA">
+        <PropertyRef Name="ID_ORDEN" />
+      </Principal>
+      <Dependent Role="DETALLE_ORDEN">
+        <PropertyRef Name="ID_ORDEN" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="DETALLE_ORDEN_PRODUCTO_FK">
+    <End Role="PRODUCTO" Type="Self.PRODUCTO" Multiplicity="1" />
+    <End Role="DETALLE_ORDEN" Type="Self.DETALLE_ORDEN" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="PRODUCTO">
+        <PropertyRef Name="ID_PRODUCTO" />
+      </Principal>
+      <Dependent Role="DETALLE_ORDEN">
+        <PropertyRef Name="ID_PRODUCTO" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="DOMICILIO_USUARIO_FK">
+    <End Role="USUARIO" Type="Self.USUARIO" Multiplicity="0..1" />
+    <End Role="DOMICILIO" Type="Self.DOMICILIO" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="USUARIO">
+        <PropertyRef Name="ID_USUARIO" />
+      </Principal>
+      <Dependent Role="DOMICILIO">
+        <PropertyRef Name="ID_USUARIO" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="EMPLEADO_CARGO_FK">
+    <End Role="CARGO" Type="Self.CARGO" Multiplicity="1" />
+    <End Role="EMPLEADO" Type="Self.EMPLEADO" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="CARGO">
+        <PropertyRef Name="ID_CARGO" />
+      </Principal>
+      <Dependent Role="EMPLEADO">
+        <PropertyRef Name="ID_CARGO" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="EMPLEADO_USUARIO_FK">
+    <End Role="USUARIO" Type="Self.USUARIO" Multiplicity="1" />
+    <End Role="EMPLEADO" Type="Self.EMPLEADO" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="USUARIO">
+        <PropertyRef Name="ID_USUARIO" />
+      </Principal>
+      <Dependent Role="EMPLEADO">
+        <PropertyRef Name="ID_USUARIO" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FACTURA_ESTADO_COMPRA_FK">
+    <End Role="ESTADO_COMPRA" Type="Self.ESTADO_COMPRA" Multiplicity="0..1" />
+    <End Role="FACTURA" Type="Self.FACTURA" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ESTADO_COMPRA">
+        <PropertyRef Name="ID_ESTADO" />
+      </Principal>
+      <Dependent Role="FACTURA">
+        <PropertyRef Name="ID_ESTADO" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FACTURA_METODO_PAGO_FK">
+    <End Role="METODO_PAGO" Type="Self.METODO_PAGO" Multiplicity="1" />
+    <End Role="FACTURA" Type="Self.FACTURA" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="METODO_PAGO">
+        <PropertyRef Name="ID_PAGO" />
+      </Principal>
+      <Dependent Role="FACTURA">
+        <PropertyRef Name="ID_PAGO" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FACTURA_USUARIO_FK">
+    <End Role="USUARIO" Type="Self.USUARIO" Multiplicity="0..1" />
+    <End Role="FACTURA" Type="Self.FACTURA" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="USUARIO">
+        <PropertyRef Name="ID_USUARIO" />
+      </Principal>
+      <Dependent Role="FACTURA">
+        <PropertyRef Name="ID_USUARIO" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FOTO_PROD_PRODUCTO_FK">
+    <End Role="PRODUCTO" Type="Self.PRODUCTO" Multiplicity="0..1" />
+    <End Role="FOTO_PROD" Type="Self.FOTO_PROD" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="PRODUCTO">
+        <PropertyRef Name="ID_PRODUCTO" />
+      </Principal>
+      <Dependent Role="FOTO_PROD">
+        <PropertyRef Name="ID_PRODUCTO" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="ORDEN_COMPRA_ESTADO_ORDEN_FK">
+    <End Role="ESTADO_ORDEN" Type="Self.ESTADO_ORDEN" Multiplicity="0..1" />
+    <End Role="ORDEN_COMPRA" Type="Self.ORDEN_COMPRA" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ESTADO_ORDEN">
+        <PropertyRef Name="ID_ESTADO" />
+      </Principal>
+      <Dependent Role="ORDEN_COMPRA">
+        <PropertyRef Name="ID_ESTADO" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="ORDEN_COMPRA_USUARIO_FK">
+    <End Role="USUARIO" Type="Self.USUARIO" Multiplicity="0..1" />
+    <End Role="ORDEN_COMPRA" Type="Self.ORDEN_COMPRA" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="USUARIO">
+        <PropertyRef Name="ID_USUARIO" />
+      </Principal>
+      <Dependent Role="ORDEN_COMPRA">
+        <PropertyRef Name="ID_USUARIO" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="PRODUCTO_FAMILIA_PROD_FK">
+    <End Role="FAMILIA_PROD" Type="Self.FAMILIA_PROD" Multiplicity="1" />
+    <End Role="PRODUCTO" Type="Self.PRODUCTO" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="FAMILIA_PROD">
+        <PropertyRef Name="ID_FAMILIA" />
+      </Principal>
+      <Dependent Role="PRODUCTO">
+        <PropertyRef Name="ID_FAMILIA" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="PRODUCTO_TIPO_PROD_FK">
+    <End Role="TIPO_PROD" Type="Self.TIPO_PROD" Multiplicity="0..1" />
+    <End Role="PRODUCTO" Type="Self.PRODUCTO" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TIPO_PROD">
+        <PropertyRef Name="ID_TIPO" />
+      </Principal>
+      <Dependent Role="PRODUCTO">
+        <PropertyRef Name="ID_TIPO" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="PRODUCTO_USUARIO_FK">
+    <End Role="USUARIO" Type="Self.USUARIO" Multiplicity="1" />
+    <End Role="PRODUCTO" Type="Self.PRODUCTO" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="USUARIO">
+        <PropertyRef Name="ID_USUARIO" />
+      </Principal>
+      <Dependent Role="PRODUCTO">
+        <PropertyRef Name="ID_USUARIO" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="PROVEEDOR_RUBRO_FK">
+    <End Role="RUBRO" Type="Self.RUBRO" Multiplicity="1" />
+    <End Role="PROVEEDOR" Type="Self.PROVEEDOR" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="RUBRO">
+        <PropertyRef Name="ID_RUBRO" />
+      </Principal>
+      <Dependent Role="PROVEEDOR">
+        <PropertyRef Name="ID_RUBRO" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="PROVEEDOR_USUARIO_FK">
+    <End Role="USUARIO" Type="Self.USUARIO" Multiplicity="1" />
+    <End Role="PROVEEDOR" Type="Self.PROVEEDOR" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="USUARIO">
+        <PropertyRef Name="ID_USUARIO" />
+      </Principal>
+      <Dependent Role="PROVEEDOR">
+        <PropertyRef Name="ID_USUARIO" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="TIPO_PROD_FAMILIA_PROD_FK">
+    <End Role="FAMILIA_PROD" Type="Self.FAMILIA_PROD" Multiplicity="1" />
+    <End Role="TIPO_PROD" Type="Self.TIPO_PROD" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="FAMILIA_PROD">
+        <PropertyRef Name="ID_FAMILIA" />
+      </Principal>
+      <Dependent Role="TIPO_PROD">
+        <PropertyRef Name="ID_FAMILIA" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Function Name="F_OBTENER_ID_PRODUCTO" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="true" ParameterTypeSemantics="AllowImplicitConversion" Schema="C##FERRETERIAFERME" ReturnType="number">
+    <Parameter Name="V_ID_PROVEEDOR" Type="number" Mode="In" />
+    <Parameter Name="V_ID_FAMILIA" Type="number" Mode="In" />
+    <Parameter Name="V_VENCIMIENTO" Type="varchar2" Mode="In" />
+    <Parameter Name="V_ID_TIPO" Type="number" Mode="In" />
+  </Function>
+  <Function Name="SP_ADD_CARRITO" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="C##FERRETERIAFERME">
+    <Parameter Name="V_ID_USUARIO" Type="number" Mode="In" />
+    <Parameter Name="V_ID_PRODUCTO" Type="number" Mode="In" />
+    <Parameter Name="V_SALIDA" Type="number" Mode="Out" />
+  </Function>
+  <Function Name="SP_ADD_CARRITO_ESCRI" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="C##FERRETERIAFERME">
+    <Parameter Name="V_USERNAME" Type="varchar2" Mode="In" />
+    <Parameter Name="V_ID_PRODUCTO" Type="number" Mode="In" />
+    <Parameter Name="V_CANTIDAD" Type="number" Mode="In" />
+    <Parameter Name="V_SALIDA" Type="number" Mode="Out" />
+  </Function>
+  <Function Name="SP_CLEAN_CARRITO_ESCRIT" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="C##FERRETERIAFERME">
+    <Parameter Name="V_USERNAME" Type="varchar2" Mode="In" />
+    <Parameter Name="V_SALIDA" Type="number" Mode="Out" />
+  </Function>
+  <Function Name="SP_CREATE_CLIENTE" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="C##FERRETERIAFERME">
+    <Parameter Name="V_USERNAME" Type="varchar2" Mode="In" />
+    <Parameter Name="V_RUT" Type="varchar2" Mode="In" />
+    <Parameter Name="V_NOMBRES" Type="varchar2" Mode="In" />
+    <Parameter Name="V_APELLIDOS" Type="varchar2" Mode="In" />
+    <Parameter Name="V_NACIMIENTO" Type="varchar2" Mode="In" />
+    <Parameter Name="V_FONO" Type="number" Mode="In" />
+    <Parameter Name="V_EMAIL" Type="varchar2" Mode="In" />
+    <Parameter Name="V_ID_TIPO" Type="number" Mode="In" />
+    <Parameter Name="V_SALIDA" Type="number" Mode="Out" />
+  </Function>
+  <Function Name="SP_CREATE_EMPLEADO" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="C##FERRETERIAFERME">
+    <Parameter Name="V_USERNAME" Type="varchar2" Mode="In" />
+    <Parameter Name="V_PASSWORD" Type="varchar2" Mode="In" />
+    <Parameter Name="V_RUT" Type="varchar2" Mode="In" />
+    <Parameter Name="V_NOMBRE" Type="varchar2" Mode="In" />
+    <Parameter Name="V_APELLIDOS" Type="varchar2" Mode="In" />
+    <Parameter Name="V_ID_CARGO" Type="number" Mode="In" />
+    <Parameter Name="V_SALIDA" Type="number" Mode="Out" />
+  </Function>
+  <Function Name="SP_CREATE_FOTO_PRODUCTO" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="C##FERRETERIAFERME">
+    <Parameter Name="V_ID_PRODUCTO" Type="number" Mode="In" />
+    <Parameter Name="V_FOTO" Type="clob" Mode="In" />
+    <Parameter Name="V_SALIDA" Type="number" Mode="Out" />
+  </Function>
+  <Function Name="SP_CREATE_PRODUCTO" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="C##FERRETERIAFERME">
+    <Parameter Name="V_ID_PRODUCTO" Type="number" Mode="In" />
+    <Parameter Name="V_DESCRIPCION" Type="varchar2" Mode="In" />
+    <Parameter Name="V_VENCIMIENTO" Type="varchar2" Mode="In" />
+    <Parameter Name="V_PRECIO" Type="number" Mode="In" />
+    <Parameter Name="V_STOCK" Type="number" Mode="In" />
+    <Parameter Name="V_STOCK_CRITICO" Type="number" Mode="In" />
+    <Parameter Name="V_ID_PROVEEDOR" Type="number" Mode="In" />
+    <Parameter Name="V_ID_FAMILIA" Type="number" Mode="In" />
+    <Parameter Name="V_SALIDA" Type="number" Mode="Out" />
+  </Function>
+  <Function Name="SP_CREATE_PROVEEDOR" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="C##FERRETERIAFERME">
+    <Parameter Name="V_USERNAME" Type="varchar2" Mode="In" />
+    <Parameter Name="V_RUT" Type="varchar2" Mode="In" />
+    <Parameter Name="V_NOMBRE" Type="varchar2" Mode="In" />
+    <Parameter Name="V_FONO" Type="number" Mode="In" />
+    <Parameter Name="V_ID_RUBRO" Type="number" Mode="In" />
+    <Parameter Name="V_SALIDA" Type="number" Mode="Out" />
+  </Function>
+  <Function Name="SP_DELETE_CARRITO_ESCRIT" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="C##FERRETERIAFERME">
+    <Parameter Name="V_USERNAME" Type="varchar2" Mode="In" />
+    <Parameter Name="V_ID_PRODUCTO" Type="number" Mode="In" />
+    <Parameter Name="V_SALIDA" Type="number" Mode="Out" />
+  </Function>
+  <Function Name="SP_LISTAR_CARRITO" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="C##FERRETERIAFERME">
+    <Parameter Name="V_ID_USUARIO" Type="number" Mode="In" />
+  </Function>
+  <Function Name="SP_LISTAR_PRODUCTOS" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="C##FERRETERIAFERME" />
+  <Function Name="SP_LISTAR_TIPOPRODUCTO_POR_FAMILIA" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="C##FERRETERIAFERME">
+    <Parameter Name="V_ID_FAMILIA" Type="number" Mode="In" />
+  </Function>
+  <Function Name="SP_OBTE_ID_USUARIO" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="C##FERRETERIAFERME">
+    <Parameter Name="V_USERNAME" Type="varchar2" Mode="In" />
+    <Parameter Name="V_ID_USUARIO" Type="number" Mode="Out" />
+  </Function>
+  <Function Name="SP_OBTENER_CANTIDAD_SUBTOTAL_Y_TOTAL" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="C##FERRETERIAFERME">
+    <Parameter Name="V_ID_USUARIO" Type="number" Mode="In" />
+  </Function>
+  <Function Name="SP_OBTENER_CANTIDAD_SUBTOTAL_Y_TOTAL_ESCRITORIO" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="C##FERRETERIAFERME">
+    <Parameter Name="V_USERNAME" Type="varchar2" Mode="In" />
+    <Parameter Name="V_CANTIDAD" Type="number" Mode="Out" />
+    <Parameter Name="V_SUB_TOTAL" Type="number" Mode="Out" />
+    <Parameter Name="V_TOTAL" Type="number" Mode="Out" />
+  </Function>
+  <Function Name="SP_OBTENER_ID_FOTO_PROD" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="C##FERRETERIAFERME">
+    <Parameter Name="V_ID_FOTO_PROD" Type="number" Mode="Out" />
+  </Function>
+  <Function Name="SP_OBTENER_ID_PRODUCTO" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="C##FERRETERIAFERME">
+    <Parameter Name="V_ID_PROVEEDOR" Type="varchar2" Mode="In" />
+    <Parameter Name="V_ID_FAMILIA" Type="varchar2" Mode="In" />
+    <Parameter Name="V_VENCIMIENTO" Type="varchar2" Mode="In" />
+    <Parameter Name="V_SALIDA" Type="varchar2" Mode="Out" />
+  </Function>
+  <Function Name="SP_REGISTRAR_COMPRA" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="C##FERRETERIAFERME">
+    <Parameter Name="V_ID_USUARIO" Type="number" Mode="In" />
+    <Parameter Name="V_ID_PAGO" Type="number" Mode="In" />
+    <Parameter Name="V_DESPACHO" Type="varchar2" Mode="In" />
+    <Parameter Name="V_SALIDA" Type="number" Mode="Out" />
+  </Function>
+  <Function Name="SP_REGISTRAR_COMPRA_ESCRIT" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="C##FERRETERIAFERME">
+    <Parameter Name="V_ID_USUARIO" Type="number" Mode="In" />
+    <Parameter Name="V_SALIDA" Type="number" Mode="Out" />
+  </Function>
+  <Function Name="SP_UPDATE_CARRITO" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="C##FERRETERIAFERME">
+    <Parameter Name="V_ID_CARRITO" Type="number" Mode="In" />
+    <Parameter Name="V_CANTIDAD" Type="number" Mode="In" />
+    <Parameter Name="V_SALIDA" Type="number" Mode="Out" />
+  </Function>
+  <Function Name="SP_VALIDAR_VENDEDOR" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="C##FERRETERIAFERME">
+    <Parameter Name="V_USERNAME" Type="varchar2" Mode="In" />
+    <Parameter Name="V_PASSWORD" Type="varchar2" Mode="In" />
+    <Parameter Name="V_SALIDA" Type="number" Mode="Out" />
+  </Function>
+  <EntityContainer Name="ModeloEntitiesStoreContainer">
+    <EntitySet Name="BOLETA" EntityType="Self.BOLETA" Schema="C##FERRETERIAFERME" store:Type="Tables" />
+    <EntitySet Name="CARGO" EntityType="Self.CARGO" Schema="C##FERRETERIAFERME" store:Type="Tables" />
+    <EntitySet Name="CARRITO" EntityType="Self.CARRITO" Schema="C##FERRETERIAFERME" store:Type="Tables" />
+    <EntitySet Name="CLIENTE" EntityType="Self.CLIENTE" Schema="C##FERRETERIAFERME" store:Type="Tables" />
+    <EntitySet Name="DETALLE_BOLETA" EntityType="Self.DETALLE_BOLETA" Schema="C##FERRETERIAFERME" store:Type="Tables" />
+    <EntitySet Name="DETALLE_FACTURA" EntityType="Self.DETALLE_FACTURA" Schema="C##FERRETERIAFERME" store:Type="Tables" />
+    <EntitySet Name="DETALLE_ORDEN" EntityType="Self.DETALLE_ORDEN" Schema="C##FERRETERIAFERME" store:Type="Tables" />
+    <EntitySet Name="DOMICILIO" EntityType="Self.DOMICILIO" Schema="C##FERRETERIAFERME" store:Type="Tables" />
+    <EntitySet Name="EMPLEADO" EntityType="Self.EMPLEADO" Schema="C##FERRETERIAFERME" store:Type="Tables" />
+    <EntitySet Name="ESTADO_COMPRA" EntityType="Self.ESTADO_COMPRA" Schema="C##FERRETERIAFERME" store:Type="Tables" />
+    <EntitySet Name="ESTADO_ORDEN" EntityType="Self.ESTADO_ORDEN" Schema="C##FERRETERIAFERME" store:Type="Tables" />
+    <EntitySet Name="FACTURA" EntityType="Self.FACTURA" Schema="C##FERRETERIAFERME" store:Type="Tables" />
+    <EntitySet Name="FAMILIA_PROD" EntityType="Self.FAMILIA_PROD" Schema="C##FERRETERIAFERME" store:Type="Tables" />
+    <EntitySet Name="FOTO_PROD" EntityType="Self.FOTO_PROD" Schema="C##FERRETERIAFERME" store:Type="Tables" />
+    <EntitySet Name="METODO_PAGO" EntityType="Self.METODO_PAGO" Schema="C##FERRETERIAFERME" store:Type="Tables" />
+    <EntitySet Name="ORDEN_COMPRA" EntityType="Self.ORDEN_COMPRA" Schema="C##FERRETERIAFERME" store:Type="Tables" />
+    <EntitySet Name="PRODUCTO" EntityType="Self.PRODUCTO" Schema="C##FERRETERIAFERME" store:Type="Tables" />
+    <EntitySet Name="PROVEEDOR" EntityType="Self.PROVEEDOR" Schema="C##FERRETERIAFERME" store:Type="Tables" />
+    <EntitySet Name="RUBRO" EntityType="Self.RUBRO" Schema="C##FERRETERIAFERME" store:Type="Tables" />
+    <EntitySet Name="TIPO_CLIENTE" EntityType="Self.TIPO_CLIENTE" Schema="C##FERRETERIAFERME" store:Type="Tables" />
+    <EntitySet Name="TIPO_PROD" EntityType="Self.TIPO_PROD" Schema="C##FERRETERIAFERME" store:Type="Tables" />
+    <EntitySet Name="USUARIO" EntityType="Self.USUARIO" Schema="C##FERRETERIAFERME" store:Type="Tables" />
+    <AssociationSet Name="BOLETA_ESTADO_COMPRA_FK" Association="Self.BOLETA_ESTADO_COMPRA_FK">
+      <End Role="ESTADO_COMPRA" EntitySet="ESTADO_COMPRA" />
+      <End Role="BOLETA" EntitySet="BOLETA" />
+    </AssociationSet>
+    <AssociationSet Name="BOLETA_METODO_PAGO_FK" Association="Self.BOLETA_METODO_PAGO_FK">
+      <End Role="METODO_PAGO" EntitySet="METODO_PAGO" />
+      <End Role="BOLETA" EntitySet="BOLETA" />
+    </AssociationSet>
+    <AssociationSet Name="BOLETA_USUARIO_FK" Association="Self.BOLETA_USUARIO_FK">
+      <End Role="USUARIO" EntitySet="USUARIO" />
+      <End Role="BOLETA" EntitySet="BOLETA" />
+    </AssociationSet>
+    <AssociationSet Name="CLIENTE_TIPO_CLIENTE_FK" Association="Self.CLIENTE_TIPO_CLIENTE_FK">
+      <End Role="TIPO_CLIENTE" EntitySet="TIPO_CLIENTE" />
+      <End Role="CLIENTE" EntitySet="CLIENTE" />
+    </AssociationSet>
+    <AssociationSet Name="CLIENTE_USUARIO_FK" Association="Self.CLIENTE_USUARIO_FK">
+      <End Role="USUARIO" EntitySet="USUARIO" />
+      <End Role="CLIENTE" EntitySet="CLIENTE" />
+    </AssociationSet>
+    <AssociationSet Name="DETALLE_BOLETA_BOLETA_FK" Association="Self.DETALLE_BOLETA_BOLETA_FK">
+      <End Role="BOLETA" EntitySet="BOLETA" />
+      <End Role="DETALLE_BOLETA" EntitySet="DETALLE_BOLETA" />
+    </AssociationSet>
+    <AssociationSet Name="DETALLE_BOLETA_PRODUCTO_FK" Association="Self.DETALLE_BOLETA_PRODUCTO_FK">
+      <End Role="PRODUCTO" EntitySet="PRODUCTO" />
+      <End Role="DETALLE_BOLETA" EntitySet="DETALLE_BOLETA" />
+    </AssociationSet>
+    <AssociationSet Name="DETALLE_FACTURA_FACTURA_FK" Association="Self.DETALLE_FACTURA_FACTURA_FK">
+      <End Role="FACTURA" EntitySet="FACTURA" />
+      <End Role="DETALLE_FACTURA" EntitySet="DETALLE_FACTURA" />
+    </AssociationSet>
+    <AssociationSet Name="DETALLE_FACTURA_PRODUCTO_FK" Association="Self.DETALLE_FACTURA_PRODUCTO_FK">
+      <End Role="PRODUCTO" EntitySet="PRODUCTO" />
+      <End Role="DETALLE_FACTURA" EntitySet="DETALLE_FACTURA" />
+    </AssociationSet>
+    <AssociationSet Name="DETALLE_ORDEN_ORDEN_COMPRA_FK" Association="Self.DETALLE_ORDEN_ORDEN_COMPRA_FK">
+      <End Role="ORDEN_COMPRA" EntitySet="ORDEN_COMPRA" />
+      <End Role="DETALLE_ORDEN" EntitySet="DETALLE_ORDEN" />
+    </AssociationSet>
+    <AssociationSet Name="DETALLE_ORDEN_PRODUCTO_FK" Association="Self.DETALLE_ORDEN_PRODUCTO_FK">
+      <End Role="PRODUCTO" EntitySet="PRODUCTO" />
+      <End Role="DETALLE_ORDEN" EntitySet="DETALLE_ORDEN" />
+    </AssociationSet>
+    <AssociationSet Name="DOMICILIO_USUARIO_FK" Association="Self.DOMICILIO_USUARIO_FK">
+      <End Role="USUARIO" EntitySet="USUARIO" />
+      <End Role="DOMICILIO" EntitySet="DOMICILIO" />
+    </AssociationSet>
+    <AssociationSet Name="EMPLEADO_CARGO_FK" Association="Self.EMPLEADO_CARGO_FK">
+      <End Role="CARGO" EntitySet="CARGO" />
+      <End Role="EMPLEADO" EntitySet="EMPLEADO" />
+    </AssociationSet>
+    <AssociationSet Name="EMPLEADO_USUARIO_FK" Association="Self.EMPLEADO_USUARIO_FK">
+      <End Role="USUARIO" EntitySet="USUARIO" />
+      <End Role="EMPLEADO" EntitySet="EMPLEADO" />
+    </AssociationSet>
+    <AssociationSet Name="FACTURA_ESTADO_COMPRA_FK" Association="Self.FACTURA_ESTADO_COMPRA_FK">
+      <End Role="ESTADO_COMPRA" EntitySet="ESTADO_COMPRA" />
+      <End Role="FACTURA" EntitySet="FACTURA" />
+    </AssociationSet>
+    <AssociationSet Name="FACTURA_METODO_PAGO_FK" Association="Self.FACTURA_METODO_PAGO_FK">
+      <End Role="METODO_PAGO" EntitySet="METODO_PAGO" />
+      <End Role="FACTURA" EntitySet="FACTURA" />
+    </AssociationSet>
+    <AssociationSet Name="FACTURA_USUARIO_FK" Association="Self.FACTURA_USUARIO_FK">
+      <End Role="USUARIO" EntitySet="USUARIO" />
+      <End Role="FACTURA" EntitySet="FACTURA" />
+    </AssociationSet>
+    <AssociationSet Name="FOTO_PROD_PRODUCTO_FK" Association="Self.FOTO_PROD_PRODUCTO_FK">
+      <End Role="PRODUCTO" EntitySet="PRODUCTO" />
+      <End Role="FOTO_PROD" EntitySet="FOTO_PROD" />
+    </AssociationSet>
+    <AssociationSet Name="ORDEN_COMPRA_ESTADO_ORDEN_FK" Association="Self.ORDEN_COMPRA_ESTADO_ORDEN_FK">
+      <End Role="ESTADO_ORDEN" EntitySet="ESTADO_ORDEN" />
+      <End Role="ORDEN_COMPRA" EntitySet="ORDEN_COMPRA" />
+    </AssociationSet>
+    <AssociationSet Name="ORDEN_COMPRA_USUARIO_FK" Association="Self.ORDEN_COMPRA_USUARIO_FK">
+      <End Role="USUARIO" EntitySet="USUARIO" />
+      <End Role="ORDEN_COMPRA" EntitySet="ORDEN_COMPRA" />
+    </AssociationSet>
+    <AssociationSet Name="PRODUCTO_FAMILIA_PROD_FK" Association="Self.PRODUCTO_FAMILIA_PROD_FK">
+      <End Role="FAMILIA_PROD" EntitySet="FAMILIA_PROD" />
+      <End Role="PRODUCTO" EntitySet="PRODUCTO" />
+    </AssociationSet>
+    <AssociationSet Name="PRODUCTO_TIPO_PROD_FK" Association="Self.PRODUCTO_TIPO_PROD_FK">
+      <End Role="TIPO_PROD" EntitySet="TIPO_PROD" />
+      <End Role="PRODUCTO" EntitySet="PRODUCTO" />
+    </AssociationSet>
+    <AssociationSet Name="PRODUCTO_USUARIO_FK" Association="Self.PRODUCTO_USUARIO_FK">
+      <End Role="USUARIO" EntitySet="USUARIO" />
+      <End Role="PRODUCTO" EntitySet="PRODUCTO" />
+    </AssociationSet>
+    <AssociationSet Name="PROVEEDOR_RUBRO_FK" Association="Self.PROVEEDOR_RUBRO_FK">
+      <End Role="RUBRO" EntitySet="RUBRO" />
+      <End Role="PROVEEDOR" EntitySet="PROVEEDOR" />
+    </AssociationSet>
+    <AssociationSet Name="PROVEEDOR_USUARIO_FK" Association="Self.PROVEEDOR_USUARIO_FK">
+      <End Role="USUARIO" EntitySet="USUARIO" />
+      <End Role="PROVEEDOR" EntitySet="PROVEEDOR" />
+    </AssociationSet>
+    <AssociationSet Name="TIPO_PROD_FAMILIA_PROD_FK" Association="Self.TIPO_PROD_FAMILIA_PROD_FK">
+      <End Role="FAMILIA_PROD" EntitySet="FAMILIA_PROD" />
+      <End Role="TIPO_PROD" EntitySet="TIPO_PROD" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

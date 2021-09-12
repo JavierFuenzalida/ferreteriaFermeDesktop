@@ -1,0 +1,39 @@
+C:\Users\javie\source\repos\SolucionFermeWPF\FermeNegocio\bin\Debug\FermeNegocio.dll.config
+C:\Users\javie\source\repos\SolucionFermeWPF\FermeNegocio\bin\Debug\FermeNegocio.dll
+C:\Users\javie\source\repos\SolucionFermeWPF\FermeNegocio\bin\Debug\FermeNegocio.pdb
+C:\Users\javie\source\repos\SolucionFermeWPF\FermeNegocio\bin\Debug\EntityFramework.dll
+C:\Users\javie\source\repos\SolucionFermeWPF\FermeNegocio\bin\Debug\FermeDatos.dll
+C:\Users\javie\source\repos\SolucionFermeWPF\FermeNegocio\bin\Debug\FermeDatos.pdb
+C:\Users\javie\source\repos\SolucionFermeWPF\FermeNegocio\bin\Debug\FermeDatos.dll.config
+C:\Users\javie\source\repos\SolucionFermeWPF\FermeNegocio\bin\Debug\EntityFramework.xml
+C:\Users\javie\source\repos\SolucionFermeWPF\FermeNegocio\obj\Debug\FermeNegocio.csprojAssemblyReference.cache
+C:\Users\javie\source\repos\SolucionFermeWPF\FermeNegocio\obj\Debug\FermeNegocio.csproj.CoreCompileInputs.cache
+C:\Users\javie\source\repos\SolucionFermeWPF\FermeNegocio\obj\Debug\FermeNegocio.csproj.CopyComplete
+C:\Users\javie\source\repos\SolucionFermeWPF\FermeNegocio\obj\Debug\FermeNegocio.dll
+C:\Users\javie\source\repos\SolucionFermeWPF\FermeNegocio\obj\Debug\FermeNegocio.pdb
+C:\Users\javie\OneDrive\Escritorio\app Escritorio\SolucionFermeWPF\FermeNegocio\bin\Debug\FermeNegocio.dll.config
+C:\Users\javie\OneDrive\Escritorio\app Escritorio\SolucionFermeWPF\FermeNegocio\bin\Debug\FermeNegocio.dll
+C:\Users\javie\OneDrive\Escritorio\app Escritorio\SolucionFermeWPF\FermeNegocio\bin\Debug\FermeNegocio.pdb
+C:\Users\javie\OneDrive\Escritorio\app Escritorio\SolucionFermeWPF\FermeNegocio\bin\Debug\EntityFramework.dll
+C:\Users\javie\OneDrive\Escritorio\app Escritorio\SolucionFermeWPF\FermeNegocio\bin\Debug\FermeDatos.dll
+C:\Users\javie\OneDrive\Escritorio\app Escritorio\SolucionFermeWPF\FermeNegocio\bin\Debug\FermeDatos.pdb
+C:\Users\javie\OneDrive\Escritorio\app Escritorio\SolucionFermeWPF\FermeNegocio\bin\Debug\FermeDatos.dll.config
+C:\Users\javie\OneDrive\Escritorio\app Escritorio\SolucionFermeWPF\FermeNegocio\bin\Debug\EntityFramework.xml
+C:\Users\javie\OneDrive\Escritorio\app Escritorio\SolucionFermeWPF\FermeNegocio\obj\Debug\FermeNegocio.csprojAssemblyReference.cache
+C:\Users\javie\OneDrive\Escritorio\app Escritorio\SolucionFermeWPF\FermeNegocio\obj\Debug\FermeNegocio.csproj.CoreCompileInputs.cache
+C:\Users\javie\OneDrive\Escritorio\app Escritorio\SolucionFermeWPF\FermeNegocio\obj\Debug\FermeNegocio.csproj.CopyComplete
+C:\Users\javie\OneDrive\Escritorio\app Escritorio\SolucionFermeWPF\FermeNegocio\obj\Debug\FermeNegocio.dll
+C:\Users\javie\OneDrive\Escritorio\app Escritorio\SolucionFermeWPF\FermeNegocio\obj\Debug\FermeNegocio.pdb
+C:\Users\javie\OneDrive\Escritorio\PORTAFOLIO\app Escritorio\SolucionFermeWPF\FermeNegocio\bin\Debug\FermeNegocio.dll.config
+C:\Users\javie\OneDrive\Escritorio\PORTAFOLIO\app Escritorio\SolucionFermeWPF\FermeNegocio\bin\Debug\FermeNegocio.dll
+C:\Users\javie\OneDrive\Escritorio\PORTAFOLIO\app Escritorio\SolucionFermeWPF\FermeNegocio\bin\Debug\FermeNegocio.pdb
+C:\Users\javie\OneDrive\Escritorio\PORTAFOLIO\app Escritorio\SolucionFermeWPF\FermeNegocio\bin\Debug\EntityFramework.dll
+C:\Users\javie\OneDrive\Escritorio\PORTAFOLIO\app Escritorio\SolucionFermeWPF\FermeNegocio\bin\Debug\FermeDatos.dll
+C:\Users\javie\OneDrive\Escritorio\PORTAFOLIO\app Escritorio\SolucionFermeWPF\FermeNegocio\bin\Debug\FermeDatos.pdb
+C:\Users\javie\OneDrive\Escritorio\PORTAFOLIO\app Escritorio\SolucionFermeWPF\FermeNegocio\bin\Debug\FermeDatos.dll.config
+C:\Users\javie\OneDrive\Escritorio\PORTAFOLIO\app Escritorio\SolucionFermeWPF\FermeNegocio\bin\Debug\EntityFramework.xml
+C:\Users\javie\OneDrive\Escritorio\PORTAFOLIO\app Escritorio\SolucionFermeWPF\FermeNegocio\obj\Debug\FermeNegocio.csprojAssemblyReference.cache
+C:\Users\javie\OneDrive\Escritorio\PORTAFOLIO\app Escritorio\SolucionFermeWPF\FermeNegocio\obj\Debug\FermeNegocio.csproj.CoreCompileInputs.cache
+C:\Users\javie\OneDrive\Escritorio\PORTAFOLIO\app Escritorio\SolucionFermeWPF\FermeNegocio\obj\Debug\FermeNegocio.csproj.CopyComplete
+C:\Users\javie\OneDrive\Escritorio\PORTAFOLIO\app Escritorio\SolucionFermeWPF\FermeNegocio\obj\Debug\FermeNegocio.dll
+C:\Users\javie\OneDrive\Escritorio\PORTAFOLIO\app Escritorio\SolucionFermeWPF\FermeNegocio\obj\Debug\FermeNegocio.pdb
